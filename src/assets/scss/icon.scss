@@ -1,0 +1,325 @@
+.home-pic {
+  background: url('../images/home_pic.png') no-repeat;
+
+  &-register {
+    width: 333px;
+    height: 170px;
+    background-position: -14px -10px;
+
+    &:hover {
+      width: 333px;
+      height: 170px;
+      background-position: -367px -10px;
+    }
+  }
+
+  &-download {
+    margin: auto;
+    width: 314px;
+    height: 80px;
+    background-position: -10px -362px;
+  }
+
+  &-shop {
+    margin: auto;
+    width: 276px;
+    height: 83px;
+    background-position: -10px -462px;
+  }
+
+  &-title-job {
+    margin: auto;
+    width: 470px;
+    height: 61px;
+    background-position: -10px -281px;
+  }
+
+  &-title-guide {
+    margin: auto;
+    width: 144px;
+    height: 28px;
+    background-position: -500px -281px;
+  }
+
+  &-title-special {
+    margin: auto;
+    width: 144px;
+    height: 27px;
+    background-position: -508px -362px;
+  }
+
+  &-title-activity {
+    margin: auto;
+    width: 144px;
+    height: 27px;
+    background-position: -344px -362px;
+  }
+
+  &-line {
+    width: 383px;
+    height: 1px;
+    background-position: -306px -462px;
+  }
+
+  &-strategy {
+    width: 168px;
+    height: 55px;
+    background-position: -500px -200px;
+  }
+
+  &-title-phone {
+    margin: auto;
+    width: 470px;
+    height: 61px;
+    background-position: -10px -200px;
+  }
+}
+
+.home-icon {
+  display: inline-block;
+  background: url('../images/home_icon.png') no-repeat;
+
+  &-gift {
+    width: 28px;
+    height: 24px;
+    background-position: -82px -206px;
+  }
+
+  &-money {
+    width: 25px;
+    height: 29px;
+    background-position: -206px -154px;
+  }
+
+  &-more {
+    width: 16px;
+    height: 16px;
+    background-position: -278px -10px;
+
+    &:hover {
+      background-position: -209px -206px;
+    }
+  }
+
+  &-video {
+    width: 78px;
+    height: 78px;
+    background-position: -10px -108px;
+  }
+
+  &-pic {
+    width: 78px;
+    height: 78px;
+    background-position: -108px -10px;
+  }
+
+  &-cut {
+    width: 78px;
+    height: 78px;
+    background-position: -108px -108px;
+  }
+
+  &-computer {
+    width: 78px;
+    height: 78px;
+    background-position: -10px -10px;
+  }
+
+  &-qq {
+    width: 52px;
+    height: 52px;
+    background-position: -10px -206px;
+  }
+
+  &-weibo {
+    width: 52px;
+    height: 52px;
+    background-position: -206px -82px;
+  }
+
+  &-wechat {
+    width: 52px;
+    height: 52px;
+    background-position: -206px -10px;
+  }
+
+  &-s-qq {
+    width: 16px;
+    height: 17px;
+    background-position: -173px -206px;
+  }
+
+  &-s-people {
+    width: 23px;
+    height: 23px;
+    background-position: -130px -206px;
+  }
+}
+
+.register-pic {
+  display: inline-block;
+  background-image: url('../images/register_box.png');
+
+  &-small {
+    cursor: pointer;
+    width: 157px;
+    height: 294px;
+    background-position: -10px -10px;
+  }
+
+  &-present {
+    width: 243px;
+    height: 157px;
+    background-position: -187px -10px;
+  }
+
+  &-btn {
+    width: 222px;
+    height: 50px;
+    background-position: -187px -187px;
+  }
+
+  &-download {
+    width: 221px;
+    height: 49px;
+    background-position: -10px -324px;
+  }
+
+  &-people {
+    width: 23px;
+    height: 20px;
+    background-position: -187px -257px;
+  }
+
+  &-key {
+    width: 20px;
+    height: 20px;
+    background-position: -209px -257px;
+  }
+}
+
+.inner-icon {
+  display: inline-block;
+  background-image: url('../images/inner_icon.png');
+  background-repeat: no-repeat;
+
+  &-call {
+    width: 21px;
+    height: 21px;
+    background-position: -137px -123px;
+  }
+
+  &-auto {
+    width: 22px;
+    height: 21px;
+    background-position: -95px -123px;
+  }
+
+  &-feedback {
+    width: 22px;
+    height: 22px;
+    background-position: -53px -123px;
+  }
+
+  &-bug {
+    width: 18px;
+    height: 21px;
+    background-position: -181px -10px;
+  }
+
+  &-money {
+    width: 23px;
+    height: 26px;
+    background-position: -10px -123px;
+  }
+
+  &-treasure {
+    width: 25px;
+    height: 25px;
+    background-position: -131px -59px;
+  }
+
+  &-contact {
+    width: 43px;
+    height: 43px;
+    background-position: -10px -10px;
+  }
+
+  &-phone {
+    width: 38px;
+    height: 38px;
+    background-position: -73px -10px;
+  }
+
+  &-wechat {
+    width: 30px;
+    height: 30px;
+    background-position: -10px -73px;
+  }
+
+  &-weibo {
+    width: 30px;
+    height: 29px;
+    background-position: -131px -10px;
+  }
+
+  &-qq {
+    width: 30px;
+    height: 30px;
+    background-position: -60px -73px;
+  }
+}
+
+.bank-icon {
+  display: inline-block;
+  background-image: url('../images/banck_icon.png');
+  vertical-align: middle;
+
+  &-jianhang {
+    width: 20px;
+    height: 20px;
+    background-position: -4px 0px;
+  }
+
+  &-gonghang {
+    width: 20px;
+    height: 20px;
+    background-position: -4px -44px;
+  }
+
+  &-nonghang {
+    width: 20px;
+    height: 20px;
+    background-position: -3px -22px;
+  }
+
+  &-zhonghang {
+    width: 20px;
+    height: 20px;
+    background-position: -3px -66px;
+  }
+
+  &-zhaohang {
+    width: 20px;
+    height: 20px;
+    background-position: -3px -109px;
+  }
+
+  &-youzheng {
+    width: 20px;
+    height: 20px;
+    background-position: -3px -87px;
+  }
+
+  &-jiaohang {
+    width: 20px;
+    height: 20px;
+    background-position: -3px -132px;
+  }
+
+  &-pingan {
+    width: 20px;
+    height: 20px;
+    background-position: -2px -154px;
+  }
+}

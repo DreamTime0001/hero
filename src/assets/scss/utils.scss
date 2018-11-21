@@ -1,0 +1,53 @@
+@mixin onePxBorder($borderColor, $origin,$type) {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  transform-origin: 0 $origin;
+  transform: scaleY(0.5);
+  z-index: 2;
+  @if $origin==0 {
+    top: 0;
+    border-top: 1px $type $borderColor;
+  }
+  @else {
+    bottom: 0;
+    border-bottom: 1px $type $borderColor;
+  }
+}
+
+// clearfix
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+}
+
+// ellipsis
+@mixin ellipsis( $width: 100%, $display: inline-block) {
+  display: $display;
+  max-width: $width;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+@mixin moreTextEllipsis($line) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+  overflow: hidden;
+}
+
+// overflow-wrap
+@mixin overflow-wrap($wrap: break-word) {
+  word-wrap: $wrap;
+  overflow-wrap: $wrap;
+}
+
+$mainFontSize:14px;
+$mainFontColor:#161d22;
